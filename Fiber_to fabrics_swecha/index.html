@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+<head> 
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+<link rel="stylesheet" typ="text/css" href="cssfile.css">
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+
+<title> FIBRE TO FABRIC </title>
+</head>
+<body>
+
+
+ 
+<script>
+function summer()
+{
+document.getElementById('heading').innerHTML="SUMMER";
+document.getElementById('label').innerHTML="SOME FABRICS USED IN SUMMER";
+document.getElementById('li1').innerHTML="Cotton";
+document.getElementById('li2').innerHTML="Rayon";
+document.getElementById('li3').innerHTML="Lenin";
+document.getElementById('flipcarddiv1').style.display="block";
+document.getElementById('card1img').src="images/cotton.jpg";
+document.getElementById('card1head').innerHTML="Characteristics of Cotton";
+document.getElementById('card1p1').innerHTML="Natural";
+document.getElementById('card1p2').innerHTML="Absorbs more water";
+document.getElementById('card1p3').innerHTML="Dry slowly";
+document.getElementById('card1p4').innerHTML="Comfort to wear";
+document.getElementById('card2head1').innerHTML="Characteristics of Rayon";
+document.getElementById('card2p1').innerHTML="Absorbent";
+document.getElementById('card2p2').innerHTML="soft";
+document.getElementById('card2p3').innerHTML="light weight";
+}
+
+function winter()
+{
+document.getElementById('heading').innerHTML="WINTER";
+document.getElementById('label').innerHTML="SOME FABRICS USED IN WINTER";
+document.getElementById('li1').innerHTML="Wool";
+document.getElementById('li2').innerHTML="Leather";
+document.getElementById('li3').innerHTML="Fur";
+document.getElementById('flipcarddiv1').style.display="block";
+document.getElementById('card1img').src="images/wool.jpg";
+document.getElementById('card1head').innerHTML="Characteristics of Wool";
+document.getElementById('card1p1').innerHTML="Elastic";
+document.getElementById('card1p2').innerHTML="Soft";
+document.getElementById('card1p3').innerHTML="Warm";
+document.getElementById('card1p4').innerHTML="Fire resistant";
+document.getElementById('card2head1').innerHTML="Characteristics of Fur";
+document.getElementById('card2p1').innerHTML="High Tensile Strength";
+document.getElementById('card2p2').innerHTML="Soft";
+document.getElementById('card2p3').innerHTML="Warm";
+}
+
+function rainy()
+{
+document.getElementById('heading').innerHTML="RAINY";
+document.getElementById('label').innerHTML="SOME FABRICS USED IN RAINY";
+document.getElementById('li1').innerHTML="Silk";
+document.getElementById('li2').innerHTML="Nylon";
+document.getElementById('li3').innerHTML="Polyester";
+document.getElementById('flipcarddiv1').style.display="block";
+document.getElementById('card1img').src="images/silk.jpg";
+document.getElementById('card1head').innerHTML="Characteristics of silk";
+document.getElementById('card1p1').innerHTML="High Tensile Strength";
+document.getElementById('card1p2').innerHTML="Shines";
+document.getElementById('card1p3').innerHTML="Strongest Natural FIiber";
+document.getElementById('card1p4').innerHTML="Warm in summer,cool in winter";
+document.getElementById('card2head1').innerHTML="Characteristics of Nylon";
+document.getElementById('card2p1').innerHTML="Strong";
+document.getElementById('card2p2').innerHTML="Elastic";
+document.getElementById('card2p3').innerHTML="Smooth";
+}
+function cottonvideo()
+{
+document.getElementById('video').src="https://www.youtube.com/embed/ystM8evK6HE";
+}
+function silkvideo()
+{
+document.getElementById('video').src="https://www.youtube.com/embed/sqKbgqFpwbo";
+}
+function woolvideo()
+{
+document.getElementById('video').src="https://www.youtube.com/embed/U1v_h4oHVtk";
+}
+
+
+</script>
+<div id="#maindiv" style="background-color:#4EC4D2">
+<h1 style="text-align:center;padding-top:20px"> FIBRE TO FABRIC </h1>
+<br>
+</div>
+
+<br>
+<div class="container-fluid">
+<div class="row col-xs-2" >
+<div class="col-md-7 col-lg-5 ">
+<div class="hovereffect">
+<img onclick="summer()" href="#maindiv"  id="summering" class="img-fluid" src="images/summer.jpg" width="550px" height="300px" style="border:4px solid black" >
+<div class="overlay">
+<a onclick="summer()" href="#maindiv" id="summering" class="info">Click Here</a>
+</div>
+</div>
+<br>
+<div style="margin-top:10px" class="hovereffect">
+<img onclick="winter()" href="#maindiv" id="wintering" class="img-fluid" src="images/wintering.jpg" width="550px" height="100px" style="border:4px solid black" >
+<div class="overlay">
+<a onclick="winter()" href="#summerdivision" id="wintering" class="info">Click Here</a>
+</div>
+</div>
+<br>
+<br>
+<br>
+<div style="margin-top:90px" class="hovereffect">
+<img onclick="rainy()" href="#summerdivision" id="raining" class="img-fluid" src="images/rainy.jpg" width="550px" height="300px"  style="border:4px solid black">
+<div class="overlay">
+<a onclick="rainy()" href="#summerdivision" id="raining" class="info">Click Here</a>
+</div>
+</div>
+<br>
+<br>
+<div  style="margin-top:1000px" id="flipcarddiv2" class="flip-card" >
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img id="card2img" class="img-fluid" src="images/facts.png" alt="Avatar"  style="width:450px;height:420px" >
+    </div>
+    <div class="flip-card-back">
+	  <p>Fact-1</p>
+      <p>Human beings in ancient times used leaves and skins of animals as clothes. Clothes were also made from metal.</p>
+      <img style="width:150px;height:100px" src="images/fulldetails.jpg">
+	  <p>Fact-2</p>
+      <p>During the freedom struggle, Mahatma Gandhi encouraged people to wear clothes made of khadi yarn. People burnt imported clothes during Swadesi movement</p>
+      <img style="width:150px;height:100px" src="images/mahathma2.jpg">
+	</div>
+  </div>
+</div>
+</div>
+<br>
+<br>
+
+
+<div class="container-fluid" id="summerdivision" style="background-color:#b3e5fc;height:640px;width:650px;border:5px solid black;border-radius:20px">
+<div class="col row-xs-1">
+<h1 id="heading" style="text-align:center">SUMMER</h1>
+<label id="label" style="padding:10px;font-weight:bold">SOME FABRICS USED IN SUMMER</label>
+<ol style="font-weight:bold" id="listitems">
+<li id="li1">cotton</li>
+<li id="li2">Rayon</li>
+<li id="li3">Lenin</li>
+</ol>
+
+<div  style="margin-left:50px;border:#F1C40F 5px solid;border-radius:5px" id="flipcarddiv1" class="flip-card" >
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img id="card1img" class="img-fluid" src="images/cotton.jpg" alt="Avatar" style="width:450px;height:420px;">
+	  <div class="centered" style="font-weight:bold;font-size:50px">Fabrics Characteristics</div>
+    </div>
+    <div class="flip-card-back">
+      <h1 id="card1head" >Characteristics of Cotton</h1>
+      <p id="card1p1">Natural</p>
+      <p id="card1p2"> Absorbs more water </p>
+	  <p id="card1p3"> Dry slowly</p>
+	  <p id="card1p4" >Comfort to wear</p>
+	  <h1 id="card2head1" >Characteristics of Rayon</h1>
+      <p id="card2p1">Absorbent</p>
+      <p id="card2p2"> soft </p>
+	  <p id="card2p3"> light weight</p>
+    </div>
+  </div>
+</div>
+</div>
+<button style="margin-top:104px" onclick="cottonvideo()" class="glow-on-hover" type="button" >Cotton making video</button>
+<button onclick="silkvideo()" class="glow-on-hover" type="button" >Silk making video</button>
+<button onclick="woolvideo()"  class="glow-on-hover" type="button">Wool making video</button>
+<br>
+<br>
+<br>
+<iframe style="border:solid 5px #2E86C1;border-radius:20px" id="video"width="450px" height="250px" src="https://www.youtube.com/embed/ystM8evK6HE"></iframe>
+
+<div  style="margin-top:55px" id="flipcarddiv2" class="flip-card" >
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img id="card3img" class="img-fluid" src="images/facts.png" alt="Avatar"  style="width:450px;height:420px;" >
+    </div>
+    <div class="flip-card-back">
+	  <p>Fact-3</p>
+      <p> The material used for making school bags is also a kind of fabric. they are also used in making banners, flags, shoes, curtains, in book binding etc.</p>
+      <img style="width:150px;height:100px" src="images/materialsoffabrics.png">
+	  <p>Fact-4</p>
+      <p>We all use polythene bags for different purposes. Polythene is very difficult to decompose. To protect our environment, we should use cloth bags instead of polythene bags</p>
+      <img style="width:150px;height:100px" src="images/PLASTIC BAGS.jpg">
+	</div>
+  </div>
+</div>
+
+
+</div>
+
+
+</div>
+</div>
+</div>
+
+
+<br>
+<br>
+<div id="footer"style="text-align:center;background-color:#ADEFD1FF">
+<p style="color:sky blue;font-size:20px;font-style:italic">Ok Children you are done with the lesson</p>
+<p style="color:sky blue;font-size:20px;font-style:italic">Lets See How much you understood in this Lesson By taking Small Quiz</p>
+<button  onclick="parent.location='quiz.html'" class="glow-on-hover" type="button">QUIZ</button>
+</div>
+</body>
+</html>
